@@ -1,0 +1,52 @@
+@import 'bootstrap/scss/bootstrap';
+
+@import 'articles';
+
+
+
+$light_blue: rgba(202, 229, 255, 1);
+$dark_grey: rgba(57, 62, 65, 1);
+$light_grey: rgba(211, 208, 203, 0.7);
+$green: rgba(91, 142, 125, 1);
+$bright_green: rgba(68, 187, 164, 1);
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: $light_grey;
+}
+
+#logo {
+  color: $bright_green;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: $green;
+}
+
+p {
+  font-size: 14px;
+  color: $dark_grey;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+@import './components/button';
